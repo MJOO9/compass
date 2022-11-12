@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="compass.uathome.tests.compasslogotests">
+      <class name="compass.uat.tests.CompassUattests">
         <methods>
-          <include name="logoVeryficationTest"/>
+          <include name="afterTestMethod"/>
+          <include name="afterMethodsMethod"/>
+          <include name="TC_2"/>
+          <include name="beforeMethodsMethod"/>
+          <include name="beforeTestMethods"/>
         </methods>
-      </class> <!-- compass.uathome.tests.compasslogotests -->
+      </class> <!-- compass.uat.tests.CompassUattests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

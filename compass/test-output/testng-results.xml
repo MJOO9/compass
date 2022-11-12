@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-25T17:30:39 BDT" name="Default suite" finished-at="2022-10-25T17:30:46 BDT" duration-ms="6693">
+  <suite started-at="2022-11-12T16:48:13 BDT" name="Default suite" finished-at="2022-11-12T16:48:24 BDT" duration-ms="10976">
     <groups>
     </groups>
-    <test started-at="2022-10-25T17:30:39 BDT" name="Default test" finished-at="2022-10-25T17:30:46 BDT" duration-ms="6693">
-      <class name="compass.uathome.tests.compasslogotests">
-        <test-method is-config="true" signature="beforeTestMethods()[pri:0, instance:compass.uathome.tests.compasslogotests@5c5eefef]" started-at="2022-10-25T17:30:39 BDT" name="beforeTestMethods" finished-at="2022-10-25T17:30:39 BDT" duration-ms="141" status="PASS">
+    <test started-at="2022-11-12T16:48:13 BDT" name="Default test" finished-at="2022-11-12T16:48:24 BDT" duration-ms="10976">
+      <class name="compass.uat.tests.CompassUattests">
+        <test-method is-config="true" signature="beforeTestMethods()[pri:0, instance:compass.uat.tests.CompassUattests@595b007d]" started-at="2022-11-12T16:48:13 BDT" name="beforeTestMethods" finished-at="2022-11-12T16:48:13 BDT" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethods -->
-        <test-method is-config="true" signature="beforeMethodsMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:compass.uathome.tests.compasslogotests@5c5eefef]" started-at="2022-10-25T17:30:39 BDT" name="beforeMethodsMethod" finished-at="2022-10-25T17:30:45 BDT" duration-ms="6212" status="PASS">
+        <test-method is-config="true" signature="beforeMethodsMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:compass.uat.tests.CompassUattests@595b007d]" started-at="2022-11-12T16:48:13 BDT" name="beforeMethodsMethod" finished-at="2022-11-12T16:48:18 BDT" duration-ms="5410" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void compass.uathome.tests.compasslogotests.logoVeryficationTest()]]>
+                <![CDATA[public void compass.uat.tests.CompassUattests.TC_2()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodsMethod -->
-        <test-method signature="logoVeryficationTest()[pri:0, instance:compass.uathome.tests.compasslogotests@5c5eefef]" started-at="2022-10-25T17:30:45 BDT" name="logoVeryficationTest" finished-at="2022-10-25T17:30:45 BDT" duration-ms="13" status="PASS">
+        <test-method signature="TC_2()[pri:0, instance:compass.uat.tests.CompassUattests@595b007d]" started-at="2022-11-12T16:48:18 BDT" name="TC_2" finished-at="2022-11-12T16:48:23 BDT" duration-ms="5076" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoVeryficationTest -->
-        <test-method is-config="true" signature="afterMethodsMethod(org.testng.ITestResult)[pri:0, instance:compass.uathome.tests.compasslogotests@5c5eefef]" started-at="2022-10-25T17:30:45 BDT" name="afterMethodsMethod" finished-at="2022-10-25T17:30:45 BDT" duration-ms="133" status="PASS">
+        </test-method> <!-- TC_2 -->
+        <test-method is-config="true" signature="afterMethodsMethod(org.testng.ITestResult)[pri:0, instance:compass.uat.tests.CompassUattests@595b007d]" started-at="2022-11-12T16:48:23 BDT" name="afterMethodsMethod" finished-at="2022-11-12T16:48:23 BDT" duration-ms="125" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logoVeryficationTest status=SUCCESS method=compasslogotests.logoVeryficationTest()[pri:0, instance:compass.uathome.tests.compasslogotests@5c5eefef] output={null}]]]>
+                <![CDATA[[TestResult name=TC_2 status=SUCCESS method=CompassUattests.TC_2()[pri:0, instance:compass.uat.tests.CompassUattests@595b007d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodsMethod -->
-        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:compass.uathome.tests.compasslogotests@5c5eefef]" started-at="2022-10-25T17:30:45 BDT" name="afterTestMethod" finished-at="2022-10-25T17:30:46 BDT" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:compass.uat.tests.CompassUattests@595b007d]" started-at="2022-11-12T16:48:23 BDT" name="afterTestMethod" finished-at="2022-11-12T16:48:24 BDT" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestMethod -->
-      </class> <!-- compass.uathome.tests.compasslogotests -->
+      </class> <!-- compass.uat.tests.CompassUattests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

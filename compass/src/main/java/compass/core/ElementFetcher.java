@@ -26,9 +26,7 @@ public class ElementFetcher {
 	 *
 	 * elementType elementIdentifierValue
 	 */
-	// private static final ThreadLocal<ExtentTest> connectingPointTests = new
-	// ThreadLocal<>();
-	private static final ThreadLocal<ExtentTest> connectingPoint = new ThreadLocal<>();
+
 
 	public WebElement getWebElement(String elementType, String elementIdentifierValue) {
 		switch (elementType) {
@@ -80,11 +78,7 @@ public class ElementFetcher {
 	}
 
 	public <T> void verify(T actualResult, T expectedResult, String message) {
-		if (actualResult.equals(expectedResult)) {
-			connectingPoint.get().pass(message);
-		} else {
-			connectingPoint.get().fail(message);
-		}
+		
 		Assert.assertEquals(actualResult, expectedResult, message);
 	}
 	

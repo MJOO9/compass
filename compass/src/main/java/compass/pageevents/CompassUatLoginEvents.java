@@ -5,12 +5,19 @@ import compass.pagelements.CompassUatLoginElements;
 
 public class CompassUatLoginEvents  implements CompassUatLoginElements{
 
-	ElementFetcher fetch=new ElementFetcher();
+	ElementFetcher fetcher=new ElementFetcher();
 	
-	public void compassLogoVerification() {
+
+
+
+
+	public void enterUserID(String userID) {
 		
-	fetch.doesElementExists("xpath", CompassLogo);
+		fetcher.getWebElement("id", UserIdInputField).sendKeys(userID);
 	}
 	
 	
+	public void clickOnContinue() {
+		fetcher.getWebElement("xpath",ContinueButtonXpath);
+	}
 }
