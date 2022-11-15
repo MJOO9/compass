@@ -10,6 +10,7 @@ import compass.pageevents.CompassUatLoginEvents;
 import compass.testbase.BaseTests;
 
 public class CompassUattests extends BaseTests {
+	
  ElementFetcher fetch= new ElementFetcher();
 	
 	@Test(testName = "Homepage Verification")
@@ -17,8 +18,8 @@ public class CompassUattests extends BaseTests {
 		CompassUatHomeEvents events=new CompassUatHomeEvents();
 		boolean isLogoPresent= events.compassLogoVerification();
 		fetch.verify(isLogoPresent,true," Compass Logo is present.");
-		boolean isProposition= events.compassLogoVerification();
-		fetch.verify(isProposition,true," Compass Logo is present.");
+		String isProposition= events.compassPropositionWarningVerification();
+		fetch.verify(isProposition,"Proposition 65 WARNING"," Compass Proposition warning 65 is present.");
 	}
 
    @Test(testName = "Login with valid user")
@@ -27,9 +28,7 @@ public class CompassUattests extends BaseTests {
 	    CompassUatLoginEvents loginevents=   events.ClickOnLogin();
 	    loginevents.enterUserID("typeinavalidemail@amarrcompass.com");
 	    loginevents.clickOnContinue();
-	   
-	   
- }
+	}
 }
 
 

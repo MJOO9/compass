@@ -14,9 +14,9 @@ public class CompassUatHomeEvents implements CompassUatHomeElements{
 	return fetch.doesElementExists("xpath", CompassLogoXpath);
 	}
 	
-	public boolean compassPropositionWarningVerification() {
+	public String compassPropositionWarningVerification() {
 		
-	return	fetch.doesElementExists("xpath", CompassPropositionWarningXpath);
+	return	fetch.getTextByWebElement("xpath", CompassPropositionWarningXpath);
 		}
 		
 	public CompassUatLoginEvents ClickOnLogin() {
